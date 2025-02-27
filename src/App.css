@@ -1,0 +1,109 @@
+.app-container {
+  min-height: 100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 1%;
+  background-color: #2c3e50;
+  display: flex;
+  gap: 1rem;
+  align-items: left;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  transition: text-decoration 0.3s ease;
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  font-size: 1rem;
+  
+}
+
+.nav-link:hover {
+  color: #3498db;
+}
+
+.nav-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.nav-button:hover {
+  background-color: #c0392b;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;           /* Added to enable flexbox centering */
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  padding: 2rem;
+}
+
+.page-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.auth-form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #27ae60;
+}
+
+.error {
+  color: #e74c3c;
+  margin: 0.5rem 0;
+}
+
+.dashboard-content {
+  background-color: #f5f6fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
